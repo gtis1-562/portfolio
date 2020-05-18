@@ -27,6 +27,7 @@ color: #11999E,
   position:relative;
   padding-top:100px;
   padding-bottom: 20px;
+  bottom:50px;
 }
 
 .middle-container {
@@ -59,12 +60,12 @@ color: #11999E,
 .top-cloud {
   position: absolute;
   right:250px;
-  top:50px;
-  width: 250px;
+  top:75px;
+  width: 150px;
 }
 .bottom-cloud {
   position: absolute;
-  left:230px;
+  left:150px;
   bottom:200px;
   width: 250px;
 }
