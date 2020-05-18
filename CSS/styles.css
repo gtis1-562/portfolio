@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+margin: 70px auto 30px auto;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+color: #11999E,
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position:relative;
+  padding-top:100px;
+  padding-bottom: 20px;
+}
+
+.middle-container {
+
+}
+
+.Profile{
+  width: 250px;
+  height: 250px;
+}
+
+.Parkour{
+  width: 250px;
+  height: 250px;
+}
+
+.web-design{
+  width: 250px;
+  height: 250px;
+}
+
+.bottom-container {
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right:250px;
+  top:50px;
+  width: 250px;
+}
+.bottom-cloud {
+  position: absolute;
+  left:230px;
+  bottom:200px;
+  width: 250px;
+}
+.mountain{
+  width: 500px;
+  padding-top: 100px;
+}
+
+.email{
+  color: #11999E;
+}
+
+.footer-linkedin{
+  color: #11999E;
+}
+
+.footer-instagram{
+  color: #11999E;
+}
+
+.footer{
+  color: #11999E;
+}
