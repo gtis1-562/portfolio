@@ -9,6 +9,7 @@ margin: 70px auto 30px auto;
 font-family: 'Sacramento', cursive;
 font-size: 5.625rem;
 color: #66BFBF;
+font-weight: normal;
 }
 
 h2{
@@ -19,19 +20,31 @@ color: #66BFBF;
 
 h3{
   font-family: 'Montserrat', sans-serif;
-color: #11999E,
+color: #11999E;
 }
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #abf0e9 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
 
 .top-container {
   background-color: #e4f9f5;
   position:relative;
   padding-top:100px;
   padding-bottom: 20px;
-  bottom:50px;
+  bottom:0;
 }
 
 .middle-container {
-
+background-color: #EAF6F6;
 }
 
 .Profile{
@@ -40,17 +53,22 @@ color: #11999E,
 }
 
 .Parkour{
-  width: 250px;
-  height: 250px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .web-design{
-  width: 250px;
-  height: 250px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
 .bottom-container {
-
+  background-color: #66BFBF;
+top: 300px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .pro {
@@ -74,18 +92,57 @@ color: #11999E,
   padding-top: 100px;
 }
 
-.email{
-  color: #11999E;
+
+a{
+  color: #116979;
+  font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
 }
 
-.footer-linkedin{
-  color: #11999E;
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
 }
 
-.footer-instagram{
-  color: #11999E;
+.intro{
+  color: #40514e;
+  width:30%;
+  margin: auto;
 }
 
-.footer{
-  color: #11999E;
+
+.myButton {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+	border-radius:13px;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Merriweather', serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #144f0b;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+	background-color:#2bc4ad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.trade{
+  color: #EAF6F6;
+  padding-top: 10px;
+  font-size: .75rem;
 }
