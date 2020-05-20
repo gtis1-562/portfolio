@@ -48,8 +48,9 @@ background-color: #EAF6F6;
 }
 
 .Profile{
-  width: 250px;
-  height: 250px;
+  width: 15%;
+  border-radius: 100%;
+  margin: 0;
 }
 
 .Parkour{
